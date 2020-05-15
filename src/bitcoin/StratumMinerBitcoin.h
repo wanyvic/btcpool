@@ -64,7 +64,6 @@ private:
       uint32_t versionMask,
       uint32_t extraGrandNonce1);
 
-  uint16_t submitIndex_ = 0;
 };
 
 #endif // #ifndef STRATUM_MINER_BITCOIN_H_

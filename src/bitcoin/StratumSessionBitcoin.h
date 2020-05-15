@@ -71,6 +71,7 @@ public:
 
   void responseError(const string &idStr, int errCode) override;
 
+  atomic<uint16_t> submitIndex_ = 0;
 private:
   uint8_t allocShortJobId();
 

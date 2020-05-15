@@ -200,7 +200,7 @@ void StratumMinerBitcoin::handleExMessage_SubmitShare(
       versionMask);
 
   handleRequest_Submit(
-      std::to_string(submitIndex_++),
+      std::to_string(getsession().submitIndex_++),
       shortJobId,
       fullExtraNonce2,
       nonce,
